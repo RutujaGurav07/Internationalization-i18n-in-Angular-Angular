@@ -2,6 +2,7 @@
   "name": "internationlization",
   "version": "0.0.0",
   "scripts": {
+    "int:extract":"ng xi18n",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -16,6 +17,7 @@
     "@angular/compiler": "~10.0.0",
     "@angular/core": "~10.0.0",
     "@angular/forms": "~10.0.0",
+    "@angular/localize": "^10.0.4",
     "@angular/platform-browser": "~10.0.0",
     "@angular/platform-browser-dynamic": "~10.0.0",
     "@angular/router": "~10.0.0",

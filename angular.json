@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "internationlization"
+    }
+  },
+  "defaultProject": "internationlization",
+  "cli": {
+    "analytics": false
+  }
 }
