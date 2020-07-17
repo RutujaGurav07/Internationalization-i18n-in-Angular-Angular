@@ -29,6 +29,23 @@
             "scripts": []
           },
           "configurations": {
+            "fr":{
+              "aot":true ,
+              "outputpath":"dist/under-construction-fr",
+              "i18nfile": "src/locales/messages.fr.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "fr",
+              "i18nMissingTranslation": "error"
+            },
+            "de":{
+              "aot":true ,
+              "outputpath":"dist/under-construction-de",
+              "i18nfile": "src/locales/messages.de.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "de",
+              "i18nMissingTranslation": "error"
+            },
+            
             "production": {
               "fileReplacements": [
                 {
@@ -67,6 +84,12 @@
           "configurations": {
             "production": {
               "browserTarget": "internationlization:build:production"
+            },
+            "fr": {
+              "browserTarget": "AngularInt:build:fr"
+            },
+            "de": {
+              "browserTarget": "AngularInt:build:de"
             }
           }
         },

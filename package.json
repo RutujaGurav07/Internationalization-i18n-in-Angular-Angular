@@ -2,13 +2,18 @@
   "name": "internationlization",
   "version": "0.0.0",
   "scripts": {
-    "int:extract":"ng xi18n",
     "ng": "ng",
     "start": "ng serve",
+    "start:fr":"ng serve --configurations=fr",
+    "start:de":"ng serve --configurations=de",
     "build": "ng build",
+    "build:fr":"ng build --configurations=fr",
+    "build:de":"ng build --configurations=de",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "int:extract":"ng xi18n --output-path src/locales"
+
   },
   "private": true,
   "dependencies": {
