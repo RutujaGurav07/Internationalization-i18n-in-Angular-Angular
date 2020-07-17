@@ -31,16 +31,16 @@
           "configurations": {
             "fr":{
               "aot":true ,
-              "outputpath":"dist/under-construction-fr",
-              "i18nfile": "src/locales/messages.fr.xlf",
+              "outputPath":"dist/under-construction-fr",
+              "i18nFile": "src/locales/messages.fr.xlf",
               "i18nFormat": "xlf",
               "i18nLocale": "fr",
               "i18nMissingTranslation": "error"
             },
             "de":{
               "aot":true ,
-              "outputpath":"dist/under-construction-de",
-              "i18nfile": "src/locales/messages.de.xlf",
+              "outputPath":"dist/under-construction-de",
+              "i18nFile": "src/locales/messages.de.xlf",
               "i18nFormat": "xlf",
               "i18nLocale": "de",
               "i18nMissingTranslation": "error"
@@ -86,10 +86,10 @@
               "browserTarget": "internationlization:build:production"
             },
             "fr": {
-              "browserTarget": "AngularInt:build:fr"
+              "browserTarget": "internationlization:build:fr"
             },
             "de": {
-              "browserTarget": "AngularInt:build:de"
+              "browserTarget": "internationlization:build:de"
             }
           }
         },
